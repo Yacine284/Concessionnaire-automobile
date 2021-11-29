@@ -1,0 +1,12 @@
+package Car_Leaderchep;
+
+public class Vehicle {
+	
+	String Marque;
+	String Color;
+	double Prix;
+	
+	
+	
+
+}

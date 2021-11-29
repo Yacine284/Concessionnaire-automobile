@@ -1,0 +1,26 @@
+package Car_Leaderchep;
+
+public class Employee {
+	
+	public void handleCustemer(Client client,boolean finance,Vehicle vehicle) {
+		if(finance==true) {
+			double Aloamount=vehicle.getPrix() -client.getCashand();
+			runCreditHistory(client,vehicle);
+		} else if(vehicle.getPrix()<=client.getCashand()) {
+			runtransaction(client,vehicle);
+		}
+		else
+			System.out.println("le client ne peut acheter la voiture  " + vehicle +" il lui manque de l'argent");
+			
+	}
+	
+	public void runCreditHistory(Client client,Vehicle vehicle) {
+		System.out.println("Génération de histirique du crédit ");
+		System.out.println("Le client"+client +" peut procurer " +vehicle);
+	}
+	
+	public void runtransaction(Client client,Vehicle vehicle) {
+		System.out.println("Le client achete la voiture  " + vehicle +" avec le prix"+ vehicle.getPrix());
+	}
+
+}

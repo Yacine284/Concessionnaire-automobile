@@ -1,0 +1,26 @@
+package Car_Leaderchep;
+
+public class CarDealershep {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Client client = new Client ("Yacine", "341 rue desrésidence", 120000);
+		Client client1=new Client ("Lyzia", "341 rue desrésidence", 120000);
+		
+		
+		Vehicle vehicle=new Vehicle("Mercedes", "E220", 150000);
+		Vehicle car=new Vehicle("BMW", "M7", 170000);
+		
+		
+		Employee empl= new Employee();
+		
+		
+		client.purchasecar(vehicle, empl, false);
+		client1.purchasecar(car, empl, true);
+		
+		
+
+	}
+
+}

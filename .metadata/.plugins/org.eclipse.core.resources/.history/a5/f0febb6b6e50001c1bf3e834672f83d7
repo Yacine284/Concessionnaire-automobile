@@ -1,0 +1,20 @@
+package Car_Leaderchep;
+
+public class Client {
+	
+	String Name;
+	String Adresse;
+	double Cashand;
+	
+	 public Client(String name,String adresse,double Cashand) {
+		// TODO Auto-generated constructor stub
+		this.Name=name;
+	}
+		
+	
+	
+	public void purchasecar(Vehicle vehicle,Employee emp,boolean finance) {
+		
+	}
+
+}

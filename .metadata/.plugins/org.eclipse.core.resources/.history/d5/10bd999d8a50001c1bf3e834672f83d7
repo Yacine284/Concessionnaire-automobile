@@ -1,0 +1,41 @@
+package Car_Leaderchep;
+
+public class Vehicle {
+	
+	private String Make;
+	private String model;
+	private double Prix;
+	
+	public Vehicle(String make, String model, double prix) {
+		super();
+		this.Make = make;
+		this.model = model;
+		this.Prix = prix;
+	}
+	public String getMake() {
+		return Make;
+	}
+	public void setMake(String make) {
+		this.Make = make;
+	}
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public double getPrix() {
+		return Prix;
+	}
+	public void setPrix(double prix) {
+		this.Prix = prix;
+	}
+	@Override
+	public String toString() {
+		return "Vehicle [Make=" + Make + ", model=" + model + ", Prix=" + Prix + "]";
+	}
+	
+	
+	
+
+}

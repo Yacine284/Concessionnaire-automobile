@@ -1,0 +1,16 @@
+package Car_Leaderchep;
+
+public class CarDealershep {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Client clien1=new Client("Yacine", "41 Rues des residences", 12000);
+		System.out.println(clien1.Name);
+		System.out.println(clien1.Adresse);
+		System.out.println(clien1.Cashand+ "£");
+		
+
+	}
+
+}
